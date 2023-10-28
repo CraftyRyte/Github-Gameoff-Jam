@@ -1,0 +1,3 @@
+C:/Users/Craft/CLionProjects/GithubGameoff/cmake-build-release/_deps/raylib_cpp-subbuild/CMakeFiles/raylib_cpp-populate.dir
+C:/Users/Craft/CLionProjects/GithubGameoff/cmake-build-release/_deps/raylib_cpp-subbuild/CMakeFiles/edit_cache.dir
+C:/Users/Craft/CLionProjects/GithubGameoff/cmake-build-release/_deps/raylib_cpp-subbuild/CMakeFiles/rebuild_cache.dir

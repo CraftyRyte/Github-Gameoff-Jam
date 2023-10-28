@@ -1,0 +1,21 @@
+# ninja log v5
+0	39	7201752186838131	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir	20adbd7aeca1e19b
+0	39	7201752186838131	C:/Users/Craft/CLionProjects/GithubGameoff/cmake-build-release/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-mkdir	20adbd7aeca1e19b
+0	59385	7201753369994289	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download	a39a4e96344fc89b
+0	59385	7201753369994289	C:/Users/Craft/CLionProjects/GithubGameoff/cmake-build-release/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-download	a39a4e96344fc89b
+59385	59469	0	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update	a8190c594e3814f7
+59385	59469	0	C:/Users/Craft/CLionProjects/GithubGameoff/cmake-build-release/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-update	a8190c594e3814f7
+59469	59503	7201753371134389	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch	516fd0c6352dac1e
+59469	59503	7201753371134389	C:/Users/Craft/CLionProjects/GithubGameoff/cmake-build-release/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-patch	516fd0c6352dac1e
+59504	59537	7201753371509215	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure	b433698a1b888077
+59504	59537	7201753371509215	C:/Users/Craft/CLionProjects/GithubGameoff/cmake-build-release/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-configure	b433698a1b888077
+59537	59571	7201753371863692	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build	f4cf233a2a5ec5db
+59537	59571	7201753371863692	C:/Users/Craft/CLionProjects/GithubGameoff/cmake-build-release/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-build	f4cf233a2a5ec5db
+59571	59606	7201753372187225	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install	c152b00784e87c9c
+59571	59606	7201753372187225	C:/Users/Craft/CLionProjects/GithubGameoff/cmake-build-release/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-install	c152b00784e87c9c
+59607	59642	7201753372512060	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test	8172967de4bd2df4
+59607	59642	7201753372512060	C:/Users/Craft/CLionProjects/GithubGameoff/cmake-build-release/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-test	8172967de4bd2df4
+59642	59689	7201753373009405	CMakeFiles/raylib-populate-complete	bf952a0ff1d4358d
+59642	59689	7201753373009405	raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done	bf952a0ff1d4358d
+59642	59689	7201753373009405	C:/Users/Craft/CLionProjects/GithubGameoff/cmake-build-release/_deps/raylib-subbuild/CMakeFiles/raylib-populate-complete	bf952a0ff1d4358d
+59642	59689	7201753373009405	C:/Users/Craft/CLionProjects/GithubGameoff/cmake-build-release/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-done	bf952a0ff1d4358d
