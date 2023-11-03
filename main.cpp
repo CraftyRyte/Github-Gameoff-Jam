@@ -1,5 +1,6 @@
 #include <iostream>
 #include "raylib-cpp.hpp"
+#include "gameobject.h"
 
 int main() {
     InitWindow(900, 900, "My Stuff Baby");
@@ -8,7 +9,7 @@ int main() {
     // Game states and definitions
     std::string game_states[4] = {"start", "menu", "explore", "fight"};
     std::string game_state = game_states[2];
-
+    //GameObject example = GameObject(Vector2{80, 80}, Vector2{0, 0}, 20, 100, WHITE);
     // Main game loop
     while (!WindowShouldClose()){
         // if game state is start
@@ -25,6 +26,7 @@ int main() {
         else if (game_state == game_states[2]) {
             BeginDrawing();
             ClearBackground(BLACK);
+            //example.Update();
             DrawFPS(10, 10);
             EndDrawing();
         }
