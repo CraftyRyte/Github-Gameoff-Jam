@@ -30,7 +30,6 @@ set(SOURCES main.cpp
         gameobject.h
         gameobject.cpp
         drawing.h
-        drawing.cpp
 )
 add_executable(${PROJECT_NAME} ${SOURCES})
 set_target_properties(${PROJECT_NAME} PROPERTIES CXX_STANDARD 11)
