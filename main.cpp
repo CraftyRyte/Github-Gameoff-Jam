@@ -19,14 +19,6 @@ void DrawingExploreState(GameObject& player){
     if (IsKeyDown(KEY_F)){
         player.radius -= 2;
     }
-    if (IsKeyDown(KEY_A)){
-        player.SetMoveLeft();
-        player.Move();
-    }
-    if (IsKeyDown(KEY_D)){
-        player.SetMoveRight();
-        player.Move();
-    }
     
    
 
