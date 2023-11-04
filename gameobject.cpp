@@ -42,28 +42,33 @@ void GameObject::Move() {
 }
 
 void GameObject::SetMoveUp() {
-    ogVel = Vector2{ abs(velocity.x), abs(velocity.y) };
-    velocity.y = ogVel.y * -1;
     velocity.x = 0;
+    velocity.y = ogVel.y * -1;
+    
+    
 }
 void GameObject::SetMoveDown() {
-    ogVel = Vector2{ abs(velocity.x), abs(velocity.y) };
-    velocity.y = ogVel.y;
     velocity.x = 0;
+    velocity.y = ogVel.y*1;
+    
+    
+    
 }
 void GameObject::SetMoveLeft() {
-    ogVel = Vector2{ abs(velocity.x), abs(velocity.y) };
-    velocity.x = ogVel.x * -1;
     velocity.y = 0;
+    velocity.x = ogVel.x * -1;
+    
+    
+    
 }
 void GameObject::SetMoveRight() {
-    ogVel = Vector2{ abs(velocity.x), abs(velocity.y) };
+    
     velocity.x = ogVel.x;
     velocity.y = 0;
 }
 
 void GameObject::Update() {
-    ogVel = Vector2{ abs(velocity.x), abs(velocity.y) };
+   
     ReDef();
     Draw();
 }

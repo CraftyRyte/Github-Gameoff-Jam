@@ -9,6 +9,7 @@ void DrawingExploreState(GameObject& player){
         player.SetMoveDown();
         player.Move();
     }
+   
 
     BeginDrawing();
     ClearBackground(BLACK);
