@@ -1,15 +1,21 @@
 #include <iostream>
 #include "raylib-cpp.hpp"
 #include "gameobject.h"
+#include "drawing.h"
 
 int main() {
-    InitWindow(900, 900, "My Stuff Baby");
+    const int width = 900;
+    const int height = 900;
+    InitWindow(width, height, "My Stuff Baby");
     SetTargetFPS(60);
 
     // Game states and definitions
-    std::string game_states[4] = {"start", "menu", "explore", "fight"};
+    std::string game_states[4] = {"start", "menu", "play", "end"};
     std::string game_state = game_states[2];
-    //GameObject example = GameObject(Vector2{80, 80}, Vector2{0, 0}, 20, 100, WHITE);
+
+    // Game objects
+    GameObject player = GameObject(Vector2{width/2-150, height/2}, Vector2{0, 500}, 30, 30, RAYWHITE);
+
     // Main game loop
     while (!WindowShouldClose()){
         // if game state is start
@@ -24,11 +30,7 @@ int main() {
         }
         // if game state is explore
         else if (game_state == game_states[2]) {
-            BeginDrawing();
-            ClearBackground(BLACK);
-            //example.Update();
-            DrawFPS(10, 10);
-            EndDrawing();
+            DrawingExploreState(player);
         }
         // if game state is fight
         else if (game_state == game_states[3]) {

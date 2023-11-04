@@ -22,6 +22,7 @@ struct GameObject {
     GameObject(Vector2 pos, float radius, Vector2 velocity, Color color);
 
     void Move();
+    void SetVelocity(Vector2 newVelocity);
     void SetMoveUp();
     void SetMoveDown();
     void SetMoveLeft();

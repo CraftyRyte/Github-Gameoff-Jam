@@ -28,8 +28,12 @@ endif()
 # This is the main part:
 set(SOURCES main.cpp
         gameobject.h
-        gameobject.cpp)
-add_executable(${PROJECT_NAME} ${SOURCES})
+        gameobject.cpp
+        drawing.h
+        drawing.cpp
+)
+add_executable(${PROJECT_NAME} ${SOURCES}
+        drawing.cpp)
 set_target_properties(${PROJECT_NAME} PROPERTIES CXX_STANDARD 11)
 target_link_libraries(${PROJECT_NAME} PUBLIC raylib raylib_cpp)
 

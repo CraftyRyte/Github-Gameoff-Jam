@@ -33,6 +33,9 @@ void GameObject::Draw() {
     }
 }
 
+void GameObject::SetVelocity(Vector2 newVelocity) {
+    velocity = newVelocity;
+}
 void GameObject::Move() {
     position.x += velocity.x * GetFrameTime();
     position.y += velocity.y * GetFrameTime();
