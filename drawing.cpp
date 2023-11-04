@@ -9,6 +9,13 @@ void DrawingExploreState(GameObject& player){
         player.SetMoveDown();
         player.Move();
     }
+    if (IsKeyDown(KEY_U)){
+        player.radius += 2;
+    }
+    if (IsKeyDown(KEY_D)){
+        player.radius -= 2;
+    }
+    
    
 
     BeginDrawing();
