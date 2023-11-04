@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "c:/Users/Hp/Desktop/ALL_MY_CODE/Github-Gameoff-Jam/build"
+			"value" : "c:/Users/Craft/Desktop/GameJams/Github-Gameoff-Jam/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -623,7 +623,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Hp/Desktop/ALL_MY_CODE/Github-Gameoff-Jam/build/CMakeFiles/pkgRedirects"
+			"value" : "C:/Users/Craft/Desktop/GameJams/Github-Gameoff-Jam/build/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -707,7 +707,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "C:/Users/Hp/Desktop/ALL_MY_CODE/Github-Gameoff-Jam"
+			"value" : "C:/Users/Craft/Desktop/GameJams/Github-Gameoff-Jam"
 		},
 		{
 			"name" : "CMAKE_INSTALL_BINDIR",
@@ -1763,7 +1763,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Users/Hp/Desktop/ALL_MY_CODE/Github-Gameoff-Jam/build/_deps"
+			"value" : "C:/Users/Craft/Desktop/GameJams/Github-Gameoff-Jam/build/_deps"
 		},
 		{
 			"name" : "FETCHCONTENT_FULLY_DISCONNECTED",
@@ -1887,7 +1887,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Hp/Desktop/ALL_MY_CODE/Github-Gameoff-Jam/build/_deps/raylib-build/raylib/external/glfw"
+			"value" : "C:/Users/Craft/Desktop/GameJams/Github-Gameoff-Jam/build/_deps/raylib-build/raylib/external/glfw"
 		},
 		{
 			"name" : "GLFW_BUILD_DOCS",
@@ -2007,7 +2007,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Hp/Desktop/ALL_MY_CODE/Github-Gameoff-Jam/build/_deps/raylib-src/src/external/glfw"
+			"value" : "C:/Users/Craft/Desktop/GameJams/Github-Gameoff-Jam/build/_deps/raylib-src/src/external/glfw"
 		},
 		{
 			"name" : "GLFW_USE_HYBRID_HPG",
@@ -2043,7 +2043,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Hp/Desktop/ALL_MY_CODE/Github-Gameoff-Jam/build"
+			"value" : "C:/Users/Craft/Desktop/GameJams/Github-Gameoff-Jam/build"
 		},
 		{
 			"name" : "GithubGameoff_IS_TOP_LEVEL",
@@ -2067,7 +2067,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Hp/Desktop/ALL_MY_CODE/Github-Gameoff-Jam"
+			"value" : "C:/Users/Craft/Desktop/GameJams/Github-Gameoff-Jam"
 		},
 		{
 			"name" : "INCLUDE_EVERYTHING",
@@ -2243,7 +2243,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Hp/Desktop/ALL_MY_CODE/Github-Gameoff-Jam/build/_deps/raylib-build/raylib"
+			"value" : "C:/Users/Craft/Desktop/GameJams/Github-Gameoff-Jam/build/_deps/raylib-build/raylib"
 		},
 		{
 			"name" : "raylib_DIR",
@@ -2291,7 +2291,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Hp/Desktop/ALL_MY_CODE/Github-Gameoff-Jam/build/_deps/raylib-src/src"
+			"value" : "C:/Users/Craft/Desktop/GameJams/Github-Gameoff-Jam/build/_deps/raylib-src/src"
 		},
 		{
 			"name" : "raylib_cpp_BINARY_DIR",
@@ -2303,7 +2303,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Hp/Desktop/ALL_MY_CODE/Github-Gameoff-Jam/build/_deps/raylib_cpp-build"
+			"value" : "C:/Users/Craft/Desktop/GameJams/Github-Gameoff-Jam/build/_deps/raylib_cpp-build"
 		},
 		{
 			"name" : "raylib_cpp_DIR",
@@ -2339,7 +2339,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "C:/Users/Hp/Desktop/ALL_MY_CODE/Github-Gameoff-Jam/build/_deps/raylib_cpp-src"
+			"value" : "C:/Users/Craft/Desktop/GameJams/Github-Gameoff-Jam/build/_deps/raylib_cpp-src"
 		}
 	],
 	"kind" : "cache",

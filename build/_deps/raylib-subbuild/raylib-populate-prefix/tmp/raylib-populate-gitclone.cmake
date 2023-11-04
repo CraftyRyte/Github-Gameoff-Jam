@@ -3,21 +3,21 @@
 
 cmake_minimum_required(VERSION 3.5)
 
-if(EXISTS "C:/Users/Hp/Desktop/ALL_MY_CODE/Github-Gameoff-Jam/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitclone-lastrun.txt" AND EXISTS "C:/Users/Hp/Desktop/ALL_MY_CODE/Github-Gameoff-Jam/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitinfo.txt" AND
-  "C:/Users/Hp/Desktop/ALL_MY_CODE/Github-Gameoff-Jam/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitclone-lastrun.txt" IS_NEWER_THAN "C:/Users/Hp/Desktop/ALL_MY_CODE/Github-Gameoff-Jam/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitinfo.txt")
+if(EXISTS "C:/Users/Craft/Desktop/GameJams/Github-Gameoff-Jam/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitclone-lastrun.txt" AND EXISTS "C:/Users/Craft/Desktop/GameJams/Github-Gameoff-Jam/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitinfo.txt" AND
+  "C:/Users/Craft/Desktop/GameJams/Github-Gameoff-Jam/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitclone-lastrun.txt" IS_NEWER_THAN "C:/Users/Craft/Desktop/GameJams/Github-Gameoff-Jam/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitinfo.txt")
   message(STATUS
     "Avoiding repeated git clone, stamp file is up to date: "
-    "'C:/Users/Hp/Desktop/ALL_MY_CODE/Github-Gameoff-Jam/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitclone-lastrun.txt'"
+    "'C:/Users/Craft/Desktop/GameJams/Github-Gameoff-Jam/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitclone-lastrun.txt'"
   )
   return()
 endif()
 
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E rm -rf "C:/Users/Hp/Desktop/ALL_MY_CODE/Github-Gameoff-Jam/build/_deps/raylib-src"
+  COMMAND ${CMAKE_COMMAND} -E rm -rf "C:/Users/Craft/Desktop/GameJams/Github-Gameoff-Jam/build/_deps/raylib-src"
   RESULT_VARIABLE error_code
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to remove directory: 'C:/Users/Hp/Desktop/ALL_MY_CODE/Github-Gameoff-Jam/build/_deps/raylib-src'")
+  message(FATAL_ERROR "Failed to remove directory: 'C:/Users/Craft/Desktop/GameJams/Github-Gameoff-Jam/build/_deps/raylib-src'")
 endif()
 
 # try the clone 3 times in case there is an odd git clone issue
@@ -27,7 +27,7 @@ while(error_code AND number_of_tries LESS 3)
   execute_process(
     COMMAND "C:/Program Files/Git/cmd/git.exe"
             clone --no-checkout --config "advice.detachedHead=false" "https://github.com/raysan5/raylib.git" "raylib-src"
-    WORKING_DIRECTORY "C:/Users/Hp/Desktop/ALL_MY_CODE/Github-Gameoff-Jam/build/_deps"
+    WORKING_DIRECTORY "C:/Users/Craft/Desktop/GameJams/Github-Gameoff-Jam/build/_deps"
     RESULT_VARIABLE error_code
   )
   math(EXPR number_of_tries "${number_of_tries} + 1")
@@ -42,7 +42,7 @@ endif()
 execute_process(
   COMMAND "C:/Program Files/Git/cmd/git.exe"
           checkout "4.5.0" --
-  WORKING_DIRECTORY "C:/Users/Hp/Desktop/ALL_MY_CODE/Github-Gameoff-Jam/build/_deps/raylib-src"
+  WORKING_DIRECTORY "C:/Users/Craft/Desktop/GameJams/Github-Gameoff-Jam/build/_deps/raylib-src"
   RESULT_VARIABLE error_code
 )
 if(error_code)
@@ -54,20 +54,20 @@ if(init_submodules)
   execute_process(
     COMMAND "C:/Program Files/Git/cmd/git.exe" 
             submodule update --recursive --init 
-    WORKING_DIRECTORY "C:/Users/Hp/Desktop/ALL_MY_CODE/Github-Gameoff-Jam/build/_deps/raylib-src"
+    WORKING_DIRECTORY "C:/Users/Craft/Desktop/GameJams/Github-Gameoff-Jam/build/_deps/raylib-src"
     RESULT_VARIABLE error_code
   )
 endif()
 if(error_code)
-  message(FATAL_ERROR "Failed to update submodules in: 'C:/Users/Hp/Desktop/ALL_MY_CODE/Github-Gameoff-Jam/build/_deps/raylib-src'")
+  message(FATAL_ERROR "Failed to update submodules in: 'C:/Users/Craft/Desktop/GameJams/Github-Gameoff-Jam/build/_deps/raylib-src'")
 endif()
 
 # Complete success, update the script-last-run stamp file:
 #
 execute_process(
-  COMMAND ${CMAKE_COMMAND} -E copy "C:/Users/Hp/Desktop/ALL_MY_CODE/Github-Gameoff-Jam/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitinfo.txt" "C:/Users/Hp/Desktop/ALL_MY_CODE/Github-Gameoff-Jam/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitclone-lastrun.txt"
+  COMMAND ${CMAKE_COMMAND} -E copy "C:/Users/Craft/Desktop/GameJams/Github-Gameoff-Jam/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitinfo.txt" "C:/Users/Craft/Desktop/GameJams/Github-Gameoff-Jam/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitclone-lastrun.txt"
   RESULT_VARIABLE error_code
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to copy script-last-run stamp file: 'C:/Users/Hp/Desktop/ALL_MY_CODE/Github-Gameoff-Jam/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitclone-lastrun.txt'")
+  message(FATAL_ERROR "Failed to copy script-last-run stamp file: 'C:/Users/Craft/Desktop/GameJams/Github-Gameoff-Jam/build/_deps/raylib-subbuild/raylib-populate-prefix/src/raylib-populate-stamp/raylib-populate-gitclone-lastrun.txt'")
 endif()

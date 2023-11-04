@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: C:/Users/Hp/Desktop/ALL_MY_CODE/Github-Gameoff-Jam/build/_deps/raylib-src
-# Build directory: C:/Users/Hp/Desktop/ALL_MY_CODE/Github-Gameoff-Jam/build/_deps/raylib-build
+# Source directory: C:/Users/Craft/Desktop/GameJams/Github-Gameoff-Jam/build/_deps/raylib-src
+# Build directory: C:/Users/Craft/Desktop/GameJams/Github-Gameoff-Jam/build/_deps/raylib-build
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

@@ -151,12 +151,12 @@
 			[
 				{
 					"backtrace" : 13,
-					"path" : "C:/Users/Hp/Desktop/ALL_MY_CODE/Github-Gameoff-Jam/build/_deps/raylib-src/src"
+					"path" : "C:/Users/Craft/Desktop/GameJams/Github-Gameoff-Jam/build/_deps/raylib-src/src"
 				},
 				{
 					"backtrace" : 16,
 					"isSystem" : true,
-					"path" : "C:/Users/Hp/Desktop/ALL_MY_CODE/Github-Gameoff-Jam/build/_deps/raylib-src/src/external/glfw/include"
+					"path" : "C:/Users/Craft/Desktop/GameJams/Github-Gameoff-Jam/build/_deps/raylib-src/src/external/glfw/include"
 				}
 			],
 			"language" : "C",
