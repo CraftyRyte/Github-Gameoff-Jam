@@ -7,7 +7,7 @@
 int main() {
     const int width = 900;
     const int height = 900;
-    InitWindow(width, height, "My Stuff Baby");
+    InitWindow(width, height, "Our GameJam Project");
     SetTargetFPS(60);
 
     // Game states and definitions
