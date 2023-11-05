@@ -19,6 +19,14 @@ void DrawingExploreState(GameObject& player){
     if (IsKeyDown(KEY_F)){
         player.radius -= 2;
     }
+    if (IsKeyDown(KEY_A)){
+        player.SetMoveLeft();
+        player.Move();
+    }
+    if (IsKeyDown(KEY_D)){
+        player.SetMoveRight();
+        player.Move();
+    }
     
    
 
@@ -42,7 +50,7 @@ int main() {
     std::string game_state = game_states[2];
 
     // Game objects
-    GameObject player = GameObject(Vector2{200, height/2}, 15, Vector2{500, 500}, RAYWHITE);
+    GameObject player = GameObject(Vector2{200, height/2}, 15, Vector2{500, 500}, RAYWHITE); // Kutti
 
     // Main game loop
     while (!WindowShouldClose()){

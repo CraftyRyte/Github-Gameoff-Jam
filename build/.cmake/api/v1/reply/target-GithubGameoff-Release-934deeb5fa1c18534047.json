@@ -30,13 +30,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 35,
+				"line" : 34,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 38,
+				"line" : 36,
 				"parent" : 0
 			},
 			{
@@ -51,7 +51,7 @@
 			{
 				"command" : 2,
 				"file" : 0,
-				"line" : 37,
+				"line" : 35,
 				"parent" : 0
 			}
 		]
@@ -103,8 +103,7 @@
 			"sourceIndexes" : 
 			[
 				0,
-				2,
-				4
+				2
 			]
 		}
 	],
@@ -178,8 +177,7 @@
 			"sourceIndexes" : 
 			[
 				0,
-				2,
-				4
+				2
 			]
 		},
 		{
@@ -214,12 +212,6 @@
 			"backtrace" : 1,
 			"path" : "drawing.h",
 			"sourceGroupIndex" : 1
-		},
-		{
-			"backtrace" : 1,
-			"compileGroupIndex" : 0,
-			"path" : "drawing.cpp",
-			"sourceGroupIndex" : 0
 		}
 	],
 	"type" : "EXECUTABLE"
