@@ -19,8 +19,6 @@ void DrawingExploreState(GameObject& player){
     if (IsKeyDown(KEY_F)){
         player.radius -= 2;
     }
-    
-   
 
     BeginDrawing();
     ClearBackground(BLACK);
