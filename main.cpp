@@ -15,7 +15,7 @@ int main() {
     std::string game_state = game_states[2];
 
     // Game objects
-    GameObject player = GameObject(Vector2{width/2-150, height/2}, Vector2{0, 500}, 30, 30, RAYWHITE);
+    GameObject player = GameObject(Vector2{width/2-150, height/2}, Vector2{500, 500}, 30, 30, RAYWHITE);
 
     // Main game loop
     while (!WindowShouldClose()){
