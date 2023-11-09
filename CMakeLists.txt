@@ -29,8 +29,8 @@ endif()
 set(SOURCES main.cpp
         gameobject.h
         gameobject.cpp
-        drawing.h
-        bobby.h
+        player.h
+        pipe.h
 )
 add_executable(${PROJECT_NAME} ${SOURCES})
 set_target_properties(${PROJECT_NAME} PROPERTIES CXX_STANDARD 11)

@@ -211,12 +211,12 @@
 		},
 		{
 			"backtrace" : 1,
-			"path" : "drawing.h",
+			"path" : "player.h",
 			"sourceGroupIndex" : 1
 		},
 		{
 			"backtrace" : 1,
-			"path" : "bobby.h",
+			"path" : "pipe.h",
 			"sourceGroupIndex" : 1
 		}
 	],
