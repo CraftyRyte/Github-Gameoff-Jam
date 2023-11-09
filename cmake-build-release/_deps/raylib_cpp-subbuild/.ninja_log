@@ -1,0 +1,21 @@
+# ninja log v5
+0	134	7211488881193615	raylib_cpp-populate-prefix/src/raylib_cpp-populate-stamp/raylib_cpp-populate-mkdir	8ba54c0b3a0e3a0f
+0	134	7211488881193615	C:/Users/Craft/CLionProjects/Github-Gameoff-Jam-Fork/cmake-build-release/_deps/raylib_cpp-subbuild/raylib_cpp-populate-prefix/src/raylib_cpp-populate-stamp/raylib_cpp-populate-mkdir	8ba54c0b3a0e3a0f
+136	9976	7211488979505632	raylib_cpp-populate-prefix/src/raylib_cpp-populate-stamp/raylib_cpp-populate-download	d3777f1a36bc69a7
+136	9976	7211488979505632	C:/Users/Craft/CLionProjects/Github-Gameoff-Jam-Fork/cmake-build-release/_deps/raylib_cpp-subbuild/raylib_cpp-populate-prefix/src/raylib_cpp-populate-stamp/raylib_cpp-populate-download	d3777f1a36bc69a7
+9976	10359	0	raylib_cpp-populate-prefix/src/raylib_cpp-populate-stamp/raylib_cpp-populate-update	f3f3d4db568a1c9
+9976	10359	0	C:/Users/Craft/CLionProjects/Github-Gameoff-Jam-Fork/cmake-build-release/_deps/raylib_cpp-subbuild/raylib_cpp-populate-prefix/src/raylib_cpp-populate-stamp/raylib_cpp-populate-update	f3f3d4db568a1c9
+10359	10450	7211488984348447	raylib_cpp-populate-prefix/src/raylib_cpp-populate-stamp/raylib_cpp-populate-patch	3e2021c5dcae47e6
+10359	10450	7211488984348447	C:/Users/Craft/CLionProjects/Github-Gameoff-Jam-Fork/cmake-build-release/_deps/raylib_cpp-subbuild/raylib_cpp-populate-prefix/src/raylib_cpp-populate-stamp/raylib_cpp-populate-patch	3e2021c5dcae47e6
+10451	10548	7211488985340430	raylib_cpp-populate-prefix/src/raylib_cpp-populate-stamp/raylib_cpp-populate-configure	490dbde29da70c18
+10451	10548	7211488985340430	C:/Users/Craft/CLionProjects/Github-Gameoff-Jam-Fork/cmake-build-release/_deps/raylib_cpp-subbuild/raylib_cpp-populate-prefix/src/raylib_cpp-populate-stamp/raylib_cpp-populate-configure	490dbde29da70c18
+10548	10643	7211488986287337	raylib_cpp-populate-prefix/src/raylib_cpp-populate-stamp/raylib_cpp-populate-build	aeaefa5c1efbbe73
+10548	10643	7211488986287337	C:/Users/Craft/CLionProjects/Github-Gameoff-Jam-Fork/cmake-build-release/_deps/raylib_cpp-subbuild/raylib_cpp-populate-prefix/src/raylib_cpp-populate-stamp/raylib_cpp-populate-build	aeaefa5c1efbbe73
+10644	10783	7211488987624863	raylib_cpp-populate-prefix/src/raylib_cpp-populate-stamp/raylib_cpp-populate-install	6d3b9ee1f4287c25
+10644	10783	7211488987624863	C:/Users/Craft/CLionProjects/Github-Gameoff-Jam-Fork/cmake-build-release/_deps/raylib_cpp-subbuild/raylib_cpp-populate-prefix/src/raylib_cpp-populate-stamp/raylib_cpp-populate-install	6d3b9ee1f4287c25
+10784	10959	7211488989426636	raylib_cpp-populate-prefix/src/raylib_cpp-populate-stamp/raylib_cpp-populate-test	d120476478f009c1
+10784	10959	7211488989426636	C:/Users/Craft/CLionProjects/Github-Gameoff-Jam-Fork/cmake-build-release/_deps/raylib_cpp-subbuild/raylib_cpp-populate-prefix/src/raylib_cpp-populate-stamp/raylib_cpp-populate-test	d120476478f009c1
+10960	11086	7211488990731801	CMakeFiles/raylib_cpp-populate-complete	c96016c5154d0424
+10960	11086	7211488990731801	raylib_cpp-populate-prefix/src/raylib_cpp-populate-stamp/raylib_cpp-populate-done	c96016c5154d0424
+10960	11086	7211488990731801	C:/Users/Craft/CLionProjects/Github-Gameoff-Jam-Fork/cmake-build-release/_deps/raylib_cpp-subbuild/CMakeFiles/raylib_cpp-populate-complete	c96016c5154d0424
+10960	11086	7211488990731801	C:/Users/Craft/CLionProjects/Github-Gameoff-Jam-Fork/cmake-build-release/_deps/raylib_cpp-subbuild/raylib_cpp-populate-prefix/src/raylib_cpp-populate-stamp/raylib_cpp-populate-done	c96016c5154d0424
