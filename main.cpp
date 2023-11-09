@@ -2,35 +2,9 @@
 #include <iostream>
 #include "raylib-cpp.hpp"
 #include "gameobject.h"
-#include "drawing.h"
-#include "bobby.h"
+#include "player.h"
 
-void DrawingExploreState(GameObject& player){
-    if (IsKeyDown(KEY_W)){
-        player.SetMoveUp();
-        player.Move();
-    }
-    if (IsKeyDown(KEY_S)){
-        player.SetMoveDown();
-        player.Move();
-    }
-    if (IsKeyDown(KEY_U)){
-        player.radius += 2;
-    }
-    if (IsKeyDown(KEY_F)){
-        player.radius -= 2;
-    }
-    if (IsKeyDown(KEY_A)){
-        player.SetMoveLeft();
-        player.Move();
-    }
-    if (IsKeyDown(KEY_D)){
-        player.SetMoveRight();
-        player.Move();
-    }
 
-    player.Update();
-}
 
 int main() {
     const int width = 900;
@@ -61,8 +35,7 @@ int main() {
         else if (game_state == game_states[2]) {
             BeginDrawing();
             ClearBackground(BLACK);
-            DrawingExploreState(player);
-            Bobby::DrawingExploreState(bobby);
+            Player::DrawingExploreState(player);
             EndDrawing();
         }
         // if game state is fight
