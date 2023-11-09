@@ -3,6 +3,7 @@
 #include "raylib-cpp.hpp"
 #include "gameobject.h"
 #include "drawing.h"
+#include "bobby.h"
 
 void DrawingExploreState(GameObject& player){
     if (IsKeyDown(KEY_W)){
@@ -27,16 +28,8 @@ void DrawingExploreState(GameObject& player){
         player.SetMoveRight();
         player.Move();
     }
-    
-   
-
-    BeginDrawing();
-    ClearBackground(BLACK);
 
     player.Update();
-
-    DrawFPS(10, 10);
-    EndDrawing();
 }
 
 int main() {
@@ -50,8 +43,8 @@ int main() {
     std::string game_state = game_states[2];
 
     // Game objects
-    GameObject player = GameObject(Vector2{200, height/2}, 15, Vector2{500, 500}, RAYWHITE); // Kutti
-
+    GameObject player = GameObject(Vector2{200, height/2}, 15, Vector2{500, 500}, RAYWHITE);
+    GameObject bobby = GameObject(Vector2{700, height/2}, Vector2{500, 500}, 20, 30, GREEN);
     // Main game loop
     while (!WindowShouldClose()){
         // if game state is start
@@ -66,7 +59,11 @@ int main() {
         }
         // if game state is explore
         else if (game_state == game_states[2]) {
+            BeginDrawing();
+            ClearBackground(BLACK);
             DrawingExploreState(player);
+            Bobby::DrawingExploreState(bobby);
+            EndDrawing();
         }
         // if game state is fight
         else if (game_state == game_states[3]) {
